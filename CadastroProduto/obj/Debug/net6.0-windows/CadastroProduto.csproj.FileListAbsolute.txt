@@ -1,0 +1,17 @@
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\bin\Debug\net6.0-windows\CadastroProduto.exe
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\bin\Debug\net6.0-windows\CadastroProduto.deps.json
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\bin\Debug\net6.0-windows\CadastroProduto.runtimeconfig.json
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\bin\Debug\net6.0-windows\CadastroProduto.dll
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\bin\Debug\net6.0-windows\CadastroProduto.pdb
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.csproj.AssemblyReference.cache
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.Form1.resources
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.csproj.GenerateResource.cache
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.AssemblyInfoInputs.cache
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.AssemblyInfo.cs
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.csproj.CoreCompileInputs.cache
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.dll
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\refint\CadastroProduto.dll
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.pdb
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\CadastroProduto.genruntimeconfig.cache
+C:\Users\2022102020041\source\repos\CadastroProduto\CadastroProduto\obj\Debug\net6.0-windows\ref\CadastroProduto.dll
