@@ -25,21 +25,35 @@ namespace CadastroProduto
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Produto produto = new Produto();
 
-                Produto produto = new Produto();
+            produto.codigo = Convert.ToInt32(tx_cod.Text);
+            produto.precoaquisicao = Convert.ToDouble(tx_preco.Text);
+            produto.lucro = Convert.ToDouble(tx_lucro.Text);
+            produto.descricao = tx_descricao.Text;
 
-                produto.codigo = Convert.ToInt32(tx_cod.Text);
-                produto.precoaquisicao = Convert.ToDouble(tx_preco.Text);
-                produto.lucro = Convert.ToDouble(tx_lucro.Text);
-                produto.valordevenda = Convert.ToDouble(tx_venda.Text);
-                produto.descricao = tx_descricao.Text;
+            produto.valordevenda = produto.precoaquisicao + (produto.precoaquisicao * produto.lucro / 100);
+            tx_venda.Text = produto.valordevenda.ToString();
 
-                produtos.Add(produto);
+            produtos.Add(produto);
 
-            /*foreach(Produto s  in produtos)
-            {
-                MessageBox.Show($"Valor venda: {produto.valordevenda}\nDescricao: {produto.descricao}");
-            }*/
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = produtos;
+            dataGridView1.Refresh();
+        }
+
+        private void tx_venda_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int index = dataGridView1.CurrentCell.RowIndex;
+            produtos.RemoveAt(index);
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = produtos;
+            dataGridView1.Refresh();
         }
     }
 }
